@@ -1,0 +1,21 @@
+{
+  "projectId": "q5rpfed8mkovupqcc6yx",
+  "functions": {
+    "source": "functions",
+    "list": [
+      {
+        "name": "resize-image",
+        "module": "resize-image",
+        "trigger": "HTTP_WITH_SCOPED_AUTH",
+        "triggerValue": "GET",
+        "timeout": 30,
+        "overwrite": true,
+        "alwaysUseLatest": true,
+        "group": 1,
+        "ignore": [
+          "yarn.lock"
+        ]
+      }
+    ]
+  }
+}

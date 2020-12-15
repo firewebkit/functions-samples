@@ -1,0 +1,19 @@
+{
+  "name": "resize-image",
+  "version": "1.0.0",
+  "description": "Resizes the image from buffer to specified size",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1",
+    "firewebkit-functions": "^1.0.0",
+    "request": "^2.88.2",
+    "sharp": "^0.26.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development nodemon index.js"
+  }
+}

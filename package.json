@@ -1,0 +1,12 @@
+{
+  "name": "functions-samples",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:firewebkit/functions-samples.git",
+  "license": "MIT",
+  "scripts": {
+    "start-resize-image": "yarn --cwd functions/resize-image start",
+    "deployfn": "firewebkit deployfn --name resize-image"
+  }
+}
